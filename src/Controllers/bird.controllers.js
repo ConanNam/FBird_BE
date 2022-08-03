@@ -6,7 +6,7 @@ const { successHandler, errorHandler } = require("../Utils/ResponseHandler");
 const err = require("../Errors/index");
 const { MINT_CONFIG } = require("../Utils/randomBird");
 const { network } = require("../../config/network.config");
-const NFT = require('../Contracts/NFT.json');
+// const NFT = require('../Contracts/NFT.json');
 const gameConfig = require("../../config/game.config");
 const { BASE_REWAED, BASE_COEFFICIENT } = require("../Utils/CalculatorTokenReward");
 const BirdBox = require("../Models/birdBox.model");
@@ -305,12 +305,12 @@ const randomRand = (arr, freq, n) => {
     return arr[indexc];
 }
 
-const createToken = async (url, signer) => {
-    let contract = new ethers.Contract(network.NFT_CONTRACT_ADDRESS, NFT.abi, signer)
-    let transaction = await contract.createToken(url)
-    let tx = await transaction.wait()
-    let event = tx.events[0]
-    let value = event.args[2]
-    let tokenId = value.toNumber()
-    return tokenId
-} 
+// const createToken = async (url, signer) => {
+//     let contract = new ethers.Contract(network.NFT_CONTRACT_ADDRESS, NFT.abi, signer)
+//     let transaction = await contract.createToken(url)
+//     let tx = await transaction.wait()
+//     let event = tx.events[0]
+//     let value = event.args[2]
+//     let tokenId = value.toNumber()
+//     return tokenId
+// } 

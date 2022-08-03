@@ -1,6 +1,6 @@
 module.exports = {
-  secret: "Ftech-ai",
-  refreshTokenSecret: "Ftech-ai-refresh-token",
+  secret: "Fbird",
+  refreshTokenSecret: "Fbirdrefresh-token",
   tokenLife: 86400 * 50, // 1 ngày
   refreshTokenLife: 86400 * 5, // 5 ngày
   salt: 8,
@@ -8,6 +8,6 @@ module.exports = {
   isActiveByMail: true,
   emailService: "gmail",
   emailHost: "smtp.gmail.com",
-  emailUser: "va.crm.ftech@gmail.com",
-  emailPass: "cevtjyksxtnkcyqh"
+  emailUser: "otp.work.service@gmail.com",
+  emailPass: "rsqcydigatgayyve"
 };

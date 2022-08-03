@@ -23,7 +23,7 @@ const filter = {
     topics: [
         ethers.utils.id("Transfer(address,address,uint256)"),
         null,
-        hexZeroPad("0x76FabBaf92B890DaB71A25Ae0a5D7220f131ef8F", 32)
+        hexZeroPad("0xcE33Cb481d14E5320B15d1f1F0b46171c7377e22", 32)
     ]
 }
 
@@ -39,7 +39,7 @@ const tranferBirdBoxFilter = {
     topics: [
         ethers.utils.id("Transfer(address,address,uint256)"),
         null,
-        hexZeroPad("0x76FabBaf92B890DaB71A25Ae0a5D7220f131ef8F", 32)
+        hexZeroPad("0xcE33Cb481d14E5320B15d1f1F0b46171c7377e22", 32)
     ]
 }
 
