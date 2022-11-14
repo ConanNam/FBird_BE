@@ -1,5 +1,5 @@
 module.exports = {
-    rpc_url: 'https://data-seed-prebsc-1-s1.binance.org:8545/',
+    rpc_url: 'https://bsctestapi.terminet.io/rpc',
     chainId: 97,
     FBT_ADDRESS: '0x13daaAD4a447aBc66eAe20964e980ed3f03b267E',
     FBB_ADDRESS: '0x37717a1B1154397f603a67c5A2ca6B5F4a4CF106',
